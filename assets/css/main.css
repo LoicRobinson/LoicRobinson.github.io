@@ -220,7 +220,7 @@ a {
 
 a:hover {
   border-bottom-color: transparent;
-  color: #b8947c !important;
+  color: #007bff !important;
 }
 
 strong,
@@ -1887,7 +1887,7 @@ header h6 + p {
 }
 
 header.major h2 {
-  color: #b8947c;
+  color: #007bff;
   font-size: 3.5em;
 }
 
@@ -1950,7 +1950,7 @@ input[type="password"]:focus,
 input[type="email"]:focus,
 select:focus,
 textarea:focus {
-  border-color: #b8947c;
+  border-color: #007bff;
 }
 
 select {
@@ -2055,7 +2055,7 @@ input[type="radio"]:checked + label:before {
 
 input[type="checkbox"]:focus + label:before,
 input[type="radio"]:focus + label:before {
-  border-color: #b8947c;
+  border-color: #007bff;
 }
 
 input[type="checkbox"] + label:before {
@@ -2502,7 +2502,7 @@ ul.feature-icons li:before {
 }
 
 ul.feature-icons li:before {
-  background: #b8947c;
+  background: #007bff;
   border-radius: 100%;
   color: #ffffff;
   display: block;
@@ -2726,7 +2726,7 @@ input[type="submit"].primary,
 input[type="reset"].primary,
 input[type="button"].primary,
 .button.primary {
-  background-color: #b8947c;
+  background-color: #007bff;
   color: #ffffff !important;
 }
 
@@ -2809,7 +2809,7 @@ input[type="button"]:disabled,
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
-  background: #b8947c;
+  background: #007bff;
   color: #eadfd8;
   height: 100%;
   overflow-y: auto;
@@ -2839,11 +2839,11 @@ input[type="button"]:disabled,
 }
 
 #header header p {
-  color: #5c4a3e;
+  color: #007bff;
 }
 
 #header a {
-  color: #eadfd8;
+  color: #007bff;
 }
 
 #header a:hover {
@@ -2870,7 +2870,7 @@ input[type="button"]:disabled,
 }
 
 #header > header p {
-  color: #eadfd8;
+  color: #007bff;
   font-style: italic;
   margin: 1em 0 0 0;
 }
@@ -2891,7 +2891,7 @@ input[type="button"]:disabled,
 }
 
 #header > footer .icons li a {
-  color: #5c4a3e;
+  color: #007bff;
 }
 
 #header > nav {
@@ -2927,7 +2927,7 @@ input[type="button"]:disabled,
 
 #header > nav ul li a.active {
   background: #fff;
-  color: #b8947c !important;
+  color: #007bff !important;
 }
 
 #header > nav ul li:first-child {
@@ -3202,7 +3202,7 @@ input[type="button"]:disabled,
   }
 
   #titleBar .toggle:before {
-    background: #b8947c;
+    background: #007bff;
     color: #ffffff;
     content: "\f0c9";
     display: block;
