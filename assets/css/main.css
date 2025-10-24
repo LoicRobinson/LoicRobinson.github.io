@@ -319,14 +319,14 @@ code {
   background: #555;
   border-radius: 5px;
   color: #fff;
-  font-family: "Source Code Pro", monospace;
+  font-family: "Times New Roman", Times, serif;
   font-size: 0.9em;
   margin: 0 0.25em;
   padding: 0.25em 0.65em;
 }
 
 pre {
-  font-family: "Source Code Pro", monospace;
+  font-family: "Times New Roman", Times, serif;
   font-size: 0.9em;
   margin: 0 0 2.25em 0;
 }
@@ -2024,7 +2024,7 @@ input[type="radio"] + label:before {
   text-rendering: auto;
   line-height: 1;
   text-transform: none !important;
-  font-family: "Font Awesome 5 Free";
+  font-family: "Times New Roman", Times, serif;
   font-weight: 900;
 }
 
@@ -2128,7 +2128,7 @@ input[type="radio"] + label:before {
   text-rendering: auto;
   line-height: 1;
   text-transform: none !important;
-  font-family: "Font Awesome 5 Free";
+  font-family: "Times New Roman", Times, serif;
   font-weight: 400;
 }
 
@@ -2145,7 +2145,7 @@ input[type="radio"] + label:before {
 }
 
 .icon.brands:before {
-  font-family: "Font Awesome 5 Brands";
+  font-family: "Times New Roman", Times, serif;
 }
 
 /* Image */
@@ -2497,7 +2497,7 @@ ul.feature-icons li:before {
   text-rendering: auto;
   line-height: 1;
   text-transform: none !important;
-  font-family: "Font Awesome 5 Free";
+  font-family: "Times New Roman", Times, serif;
   font-weight: 400;
 }
 
@@ -3197,7 +3197,7 @@ input[type="button"]:disabled,
     text-rendering: auto;
     line-height: 1;
     text-transform: none !important;
-    font-family: "Font Awesome 5 Free";
+    font-family: "Times New Roman", Times, serif;
     font-weight: 900;
   }
 
