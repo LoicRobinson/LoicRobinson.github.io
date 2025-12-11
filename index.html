@@ -1,20 +1,58 @@
 <!doctype html>
-<!--
-	Read Only by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
-  <head>
-    <title>Loïc Robinson</title>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=no"
-    />
-    <link rel="stylesheet" href="assets/css/main.css" />
-  </head>
-  <body class="is-preload">
+  <head>
+    <title>Loïc Robinson</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <style>
+        /* Force la police pour tout le corps du document */
+        body,
+        input,
+        select,
+        textarea {
+            font-family: "Times New Roman", Times, serif !important;
+        }
+        
+        /* Force la police pour les titres (h1, h2, h3, etc.) */
+        h1, h2, h3, h4, h5, h6, #logo {
+            font-family: "Times New Roman", Times, serif !important;
+            /* Si les titres sont en majuscules par défaut, vous pouvez ajouter ceci pour annuler : */
+            /* text-transform: none !important; */
+        }
+        
+        /* Assure que le contenu principal est également ciblé */
+        #main, #wrapper {
+            font-family: "Times New Roman", Times, serif !important;
+        }
+        
+        /* CORRECTION DE COULEUR 2 : Texte du paragraphe dans l'en-tête (colonne de navigation) en blanc */
+    #header header p {
+        color: #ffffff !important; /* Ajouté pour passer du bleu au blanc */
+    }
+    
+    /* CORRECTION FONT AWESOME : Ceci permet aux icônes de se réafficher */
+    .icon:before {
+        /* Utilisez le nom de la police Font Awesome. Le thème "Read Only" utilise les polices Font Awesome 5 */
+        /* Note : "Brands" est pour Facebook/LinkedIn/GitHub. "Solid" est pour l'Email. */
+        font-family: "Font Awesome 5 Brands", "Font Awesome 5 Solid" !important;
+    }
+
+        /* Si vous vouliez conserver la colonne à gauche (avant l'essai d'inversion) 
+           et que vous vouliez Times New Roman dans la navigation aussi :
+        #header {
+            font-family: "Times New Roman", Times, serif !important;
+        }
+        */
+
+    </style>
+      </head>
+  <body class="is-preload">
+...
     <!-- Header -->
     <section id="header">
       <header>
@@ -24,9 +62,9 @@
         <h1 id="logo"><a href="#">LOÏC ROBINSON</a></h1>
         <p>
          <br />
-              Étuiant à la Maîtrise en études internationales à l'École
+              Étudiant à la Maîtrise en études internationales à l'École
               supérieure d'études internationales (ESEI) de l'Université
-              Laval, au sein du profil diplomatie. </p>
+              Laval, au sein du profil Commerce international et investissement. </p>
       </header>
       <nav id="nav">
         <ul>
@@ -55,11 +93,7 @@
               ><span class="label">Github</span></a
             >
           </li>
-          <li>
-  <a href="mailto:lorob125@ulaval.ca" class="icon solid fa-envelope">
-    <span class="label">Email</span>
-  </a>
-</li>
+          
 
         </ul>
       </footer>
@@ -76,7 +110,7 @@
           </div>
           <div class="container">
             <header class="major">
-              <h2>LOÏC ROBINSON</h2>
+              <h2>Loïc Robinson</h2>
               <p>Étudiant à la maîtrise à l'ESEI</p>
             </header>
             <p>
