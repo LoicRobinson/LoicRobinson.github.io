@@ -1,23 +1,29 @@
 ---
-title: "projet"
-output: html_document
----
----
-title: "Financiarisation et soft power: les investissements étrangers dans le sport professionnel"
+title: "Financiarisation et « soft power » : les investissements étrangers dans le sport professionnel"
 author: "Loïc Robinson"
-date: "POL-6078"
-output: html_document
+date: "POL-6078 – Automne 2025"
+output:
+  html_document:
+    theme: flatly        
+    toc: true           
+    toc_depth: 3
+    toc_float: true      
+    number_sections: true
+    code_folding: "hide" 
+    highlight: tango     
+    df_print: paged
+    css: "style.css"    
 ---
-## Introduction
 
-Progressivement, le marché du sport professionnel connaît une transformation de ses structures de financement et de propriété, ainsi que de sa gouvernance. Que ce soit à des fins de sportswashing, de renforcement de stratégies géopolitiques plus larges ou de simples rendements monétaires, rares sont les grands clubs ou les grandes franchises qui ne sont pas aujourd’hui détenus par un fonds souverain, une firme de capital-investissement ou de grands gestionnaires d’actifs internationaux. L’investissement massif de ces acteurs est particulièrement visible à l’échelle de ligues majeures nord-américaines comme la National Basketball Association (NBA), la Major League Baseball (MLB) ou la Major League Soccer (MLS), ainsi que des clubs de soccer européens dominants.
-À ce titre, il importe d’analyser comment l’augmentation des investissements étrangers dans les clubs sportifs nord-américains ou européens contribue à redéfinir le sport professionnel, que ce soit à la fois comme classe d’actifs financiers ou comme instrument de soft power économique et politique.
+## - Introduction
 
----
+Progressivement, le marché du sport professionnel connaît une transformation de ses structures de financement et de propriété, ainsi que de sa gouvernance. Que ce soit à des fins de sportswashing, de renforcement de stratégies géopolitiques plus larges ou de simples rendements monétaires, rares sont les grands clubs ou les grandes franchises qui ne sont pas aujourd’hui détenus par un fonds souverain, une firme de capital-investissement ou de grands gestionnaires d’actifs internationaux. L’investissement massif de ces acteurs est particulièrement visible à l’échelle de ligues majeures nord-américaines comme la National Basketball Association (NBA), la Major League Baseball (MLB) ou la Major League Soccer (MLS), ainsi que des clubs de soccer européens dominants. À ce titre, il importe d’analyser comment l’augmentation des investissements étrangers dans les clubs sportifs nord-américains ou européens contribue à redéfinir le sport professionnel, que ce soit à la fois comme **classe d’actifs financiers** ou comme **instrument de *soft power* économique et politique**.
 
-## Revue de littérature
+------------------------------------------------------------------------
 
-Pour réaliser ma revue de littérature, j’ai mobilisé l’outil de synthèse de la connaissance du nom d’Elicit, qui propose, usant de l’intelligence artificielle, un survol de la littérature sur un sujet donné puis un onglet qui permet d’interagir avec les résultats. J'ai ensuite eu recours à Gemini 3 Pro pour traduire la revue de littérature générée par Elicit, ce qui a mené au résultat suivant:
+## - Revue de littérature
+
+Pour réaliser ma revue de littérature, j’ai mobilisé l’outil de synthèse de la connaissance du nom d’***Elicit***, qui propose, usant de l’intelligence artificielle, un survol de la littérature sur un sujet donné puis un onglet qui permet d’interagir avec les résultats. J'ai ensuite eu recours à *Gemini 3 Pro* pour traduire la revue de littérature générée par *Elicit*, ce qui a mené au résultat suivant:
 
 « La littérature examinant l'investissement sportif étranger en tant que mécanisme de projection de soft power est devenue un domaine de recherche significatif. Une analyse systématique révèle que, bien que des montants d'investissement plus élevés soient associés à des gains accrus de soft power, cette relation est fondamentalement conditionnelle plutôt que linéaire (Schepps 2023; Bianco & Sons 2023). Des preuves empiriques démontrent des variations marquées dans les résultats selon les contextes d'investissement. Par exemple, l'acquisition par le Qatar du Paris Saint-Germain pour 1,7 milliard de dollars a généré un levier diplomatique mondial documenté, amélioré les relations internationales, et produit des résultats politiques à long terme, notamment une influence sur l'OPEP et un rôle dans le courtage d'accords internationaux (Katyal 2021). En revanche, le parrainage du FC Schalke par Gazprom, malgré son statut de plus grand parrainage de l'histoire du football allemand (Schepps 2023), n'a produit que des effets régionaux et à court terme, finalement sapés par la politique étrangère antagoniste de la Russie (Schepps 2023).
 
@@ -31,37 +37,44 @@ Des limites méthodologiques persistent dans le domaine : la plupart des sources
 
 Ainsi, même si le corpus souligne le rôle de la capacité étatique, de la visibilité médiatique et du prestige des clubs dans les stratégies de diplomatie sportive, la force causale de cette relation ne peut être établie de manière définitive à partir des preuves disponibles (Schepps 2023). Ceci souligne des lacunes critiques dans les approches de mesure quantitative et d'analyse longitudinale qui contraignent l'avancement théorique dans la compréhension des mécanismes de la diplomatie sportive (Connell 2017; Schepps 2023). »
 
----
+------------------------------------------------------------------------
 
-## Question de recherche et hypothèse
+## - Question de recherche et hypothèse
 
 L’aperçu du marché du sport professionnel dressé dans la section ci-haut confirme la présence d’une duplicité dans les motifs derrière un investissement international au sein d’une marque sportive (malgré la relative infimité d’études quantitatives à cet effet). Par conséquent, si les rendements économiques peuvent constituer, à l’oeil non averti, le principal moteur des décisions d’investissement dans le sport professionnel, la dimension politique de ces investissements est non-négligeable. Ce projet propose donc de la placer au centre de l’analyse afin d’en examiner l’ampleur vraisemblablement croissante et ses effets. La question de recherche qui guide le projet est la suivante:
 
-« Dans quelle mesure le montant des investissements étrangers dans les franchises et les clubs sportifs est-il associé à un niveau plus élevé de soft power économique et politique de l’État ou de l’acteur investisseur? »
+**« Dans quelle mesure le montant des investissements étrangers dans les franchises et les clubs sportifs est-il associé à un niveau plus élevé de *soft power* économique et politique de l’État ou de l’acteur investisseur? »**
 
-Mon hypothèse est que l’augmentation du montant des investissements étrangers dans les clubs et franchises sportives nord-américaines est positivement associée à un niveau plus élevé de soft power économique et politique de l’État ou de l’acteur investisseur. Dans un second plan, à titre exploratoire, j’émets également l’hypothèse que les investissements provenant de fonds souverains sont associés à des niveaux de soft power plus élevés que ceux issus d’acteurs privés traditionnels.
+Mon hypothèse est que l’augmentation du montant des investissements étrangers dans les clubs et franchises sportives nord-américaines est positivement associée à un niveau plus élevé de *soft power* économique et politique de l’État ou de l’acteur investisseur. Dans un second plan, à titre exploratoire, j’émets également l’hypothèse que les investissements provenant de fonds souverains sont associés à des niveaux de *soft power* plus élevés que ceux issus d’acteurs privés traditionnels.
 
----
+------------------------------------------------------------------------
 
-## Collecte de données
+## - Collecte de données
 
-Aucun ensemble de données standardisé ne permet actuellement l’établissement d’un lien entre investissements étrangers dans le sport professionnel et l’acquisition de soft power pour les investisseurs. Cette lacune de données quantitatives est notamment relevée dans ma revue de littérature. À cet effet, j’ai eu recours à l’intelligence artificelle de ChatGPT pour construire un ensemble de données réaliste s’attardant à 8 franchises ou clubs sportifs: Manchester City FC, Newcastle United, Inter Miami, les Dodgers de Los Angeles, les Raptors de Toronto, l’AC Milan, le Paris Saint Germain et le Arsenal FC. Cela m’a permis de reproduire de manière réaliste la logique d’une telle recherche et, éventuellement, d’explorer la relation théorique énoncée dans ma question de recherche. Les variables retenues reflètent ces dimensions: d’une part, le montant de l’investissement, en millions de dollars américains, puis, d’autre part, l’origine géopolitique et le type d’investisseur qu’il constitue. Ces dernières variables permettent de faire la distinction entre fonds souverains, capitaux privés ou gestionnaires d’actifs. 
+Aucun ensemble de données standardisé ne permet actuellement l’établissement d’un lien entre investissements étrangers dans le sport professionnel et l’acquisition de *soft power* pour les investisseurs. Cette lacune de données quantitatives est notamment relevée dans ma revue de littérature. À cet effet, j’ai eu recours à l’intelligence artificelle de ChatGPT pour construire un ensemble de données réaliste s’attardant à 8 franchises ou clubs sportifs: Manchester City FC, Newcastle United, Inter Miami, les Dodgers de Los Angeles, les Raptors de Toronto, l’AC Milan, le Paris Saint Germain et le Arsenal FC. Cela m’a permis de reproduire de manière réaliste la logique d’une telle recherche et, éventuellement, d’explorer la relation théorique énoncée dans ma question de recherche. Les variables retenues reflètent ces dimensions: d’une part, le **montant de l’investissement**, en millions de dollars américains, puis, d’autre part, **l’origine géopolitique** etle **type d’investisseur** qu’il constitue. Ces dernières variables permettent de faire la distinction entre fonds souverains, capitaux privés ou gestionnaires d’actifs.
 
-J’ai ensuite construit un indice fictif de « soft power » pour opérationnaliser la variable politique de la chose. Utilisant un score de 1 à 10, cet indice combine les trois dimensions empiriques récurrentes relevées par la revue de littérature, à savoir la capacité globale de soft power de l’État de l’investisseur (que j’ai calculée à partir du Global Soft Power Index 2025 de Brand Finance), le degré de médiatisation de l’investissement (mesuré par le volume d’articles à travers l’outil de collecte de données médiatiques Factiva) ainsi que l’influence et la fortune de la franchise ou du club détenu (mesuré en utilisant les résultats de la Deloitte Football Money League 2025 et du Forbes Top 50 des franchises et clubs les plus riches au monde). Un score élevé indique conséquemment une probabilité plus forte que l’investissement serve de vecteur géopolitique plutôt que de simple actif financier. Donc, si mon hypothèse est correcte, il devrait exister une relation de renforcement mutuel entre la croissance des montants investis et de l’indice.
+J’ai ensuite construit un indice fictif de « *soft power* » pour opérationnaliser la variable politique de la chose. Utilisant un score de 1 à 10, cet indice combine les trois dimensions empiriques récurrentes relevées par la revue de littérature, à savoir la **capacité globale de *soft power* de l’État de l’investisseur** (que j’ai calculée à partir du *Global Soft Power Index 2025* de Brand Finance), le **degré de médiatisation de l’investissement** (mesuré par le volume d’articles à travers l’outil de collecte de données médiatiques *Factiva*) ainsi que **l’influence et la fortune de la franchise ou du club détenu** (mesuré en utilisant les résultats de la *Deloitte Football Money League 2025* et du *Forbes Top 50* des franchises et clubs les plus riches au monde). Un score élevé indique conséquemment une probabilité plus forte que l’investissement serve de vecteur géopolitique plutôt que de simple actif financier. Donc, si mon hypothèse est correcte, il devrait exister une relation de renforcement mutuel entre la croissance des montants investis et de l’indice.
 
-À titre de sommaire, ma collecte de données a d’abord utilisé l’intelligence artificielle générative pour construire un ensemble de données réaliste ciblant le type d’investisseurs, leur origine ainsi que le montant investi au sein de grands clubs et franchises prédéterminés. Ensuite, une approche de plus longue haleine m’a vu collecter des données pour opérationnaliser la variable politique du soft power par l’entremise de deux outils. Initialement, des données trouvées sur le Web m’ont permis de manuellement construire des scores en matière de fortune des clubs et franchises puis de la capacité de soft power de leur investisseur ou de l’État duquel celui-ci provient. Subséquemment, j’ai mobilisé Factiva, un outil de collecte de données médiatiques, pour attribuer une valeur au degré de médiatisation de chacun des huit investissements. Factiva, opéré par Dow Jones, rassemble plus de 15 000 articles ou documents médiatiques pour relever les plus pertinents relatifs à un ensemble de mots-clés. J’ai donc saisi un ensemble de mots-clé donné (par exemple, « Qatar Paris Saint Germain soft power ») et attribué des scores en fonction du volume d’articles ressorti par l’outil depuis la date de l’investissement initial. L’agrégat des trois valeurs numériques a été la valeur finale retenue mesurant le degré de soft power acquis par l’entremise de l’investissement.
+À titre de sommaire, ma collecte de données a d’abord utilisé l’intelligence artificielle générative pour construire un ensemble de données réaliste ciblant le type d’investisseurs, leur origine ainsi que le montant investi au sein de grands clubs et franchises prédéterminés. Ensuite, une approche de plus longue haleine m’a vu collecter des données pour opérationnaliser la variable politique du *soft power* par l’entremise de deux outils. Initialement, des **données trouvées sur le Web** m’ont permis de manuellement construire des scores en matière de fortune des clubs et franchises puis de la capacité de *soft power* de leur investisseur ou de l’État duquel celui-ci provient. Subséquemment, j’ai mobilisé ***Factiva***, un outil de collecte de données médiatiques, pour attribuer une valeur au degré de médiatisation de chacun des huit investissements. *Factiva*, opéré par Dow Jones, rassemble plus de 15 000 articles ou documents médiatiques pour relever les plus pertinents relatifs à un ensemble de mots-clés. J’ai donc saisi un ensemble de mots-clé donné (par exemple, « Qatar Paris Saint Germain *soft power* ») et attribué des scores en fonction du volume d’articles ressorti par l’outil depuis la date de l’investissement initial. L’agrégat des trois valeurs numériques a été la valeur finale retenue mesurant le degré de *soft power* acquis par l’entremise de l’investissement.
 
-La fiabilité de mon indice de soft power construit a été calculé via l’alpha de Cronbach. Cette mesure statistique mesure si les trois dimensions de l'indice captent bien une dimension commune ou si ce dernier représente une construction arbitraire, hasardeuse et manquant de fiabilité. Pour accomplir ceci, j’ai demandé à ChatGPT de générer un script R en utilisant le package psych, que j’ai ensuite roulé dans RStudio pour obtenir la valeur de l’alpha. Le résultat (0,97) indique une excellente fiabilité, renforçant la validité interne de mon approche malgré le caractère fictif de l’ensemble de données dont j’ai usé. Il importe toutefois d'interpréter cet alpha avec prudence, puisqu'il peut aussi être synonyme de la mise en ensemble de variables trop similaires plutôt qu'un construit pertinent et complet.
+La fiabilité de mon indice de *soft power* construit a été calculé via l’alpha de Cronbach. Cette mesure statistique mesure si les trois dimensions de l'indice captent bien une dimension commune ou si ce dernier représente une construction arbitraire, hasardeuse et manquant de fiabilité. Pour accomplir ceci, j’ai demandé à *ChatGPT* de générer un script *R* en utilisant le package *psych*, que j’ai ensuite roulé dans *RStudio* pour obtenir la valeur de l’alpha. Le résultat (0,97) indique une excellente fiabilité, renforçant la validité interne de mon approche malgré le caractère fictif de l’ensemble de données dont j’ai usé. Il importe toutefois d'interpréter cet alpha avec prudence, puisqu'il peut aussi être synonyme de la mise en ensemble de variables trop similaires plutôt qu'un construit pertinent et complet.
 
-Cette approche inhabituelle à la collecte de données aurait pu être renforcée de plusieurs façons. D’abord, si les données réelles nécessaires à la réalisation d’un l’ensemble de données non-fictif avaient été disponibles librement, ou si un budget m’avait permis un tel accès, j’aurais mobilisé rvest pour les extraire en accordance avec les conditions d’utilisation du site Web concerné pour construire un ensemble réel. 
+Cette approche inhabituelle à la collecte de données aurait pu être renforcée de plusieurs façons. D’abord, si les données réelles nécessaires à la réalisation d’un l’ensemble de données non-fictif avaient été disponibles librement, ou si un budget m’avait permis un tel accès, j’aurais mobilisé ***rvest*** pour les extraire en accordance avec les conditions d’utilisation du site Web concerné pour construire un ensemble réel.
 
----
+------------------------------------------------------------------------
 
-## Analyse et visualisation des données
+## - Analyse et visualisation des données
 
----
+Mon analyse et ma visualisation de données ont été réalisées en langage ***R*** dans l’environnement de programmation ***RStudio***, une approche qui rend possible la production de visualisations avancées par l’entremise des packages spécialisés. Plus précisément, j’ai utilisé la librairie ***tidyverse*** pour structurer et manipuler les données de ma collecte, puis ***ggplot2*** pour générer un graphique de type bubble plot. Ce type de visualisation permet de représenter la logique duale de financiarisation et *soft power* dont la recherche faisait initialement question, alors que la taille des bulles du graphique représente le montant investi, et leur placement, leur provenance et degré de *soft power* perçu.
 
-## Discussion
+![](images/visualisation_donnees.png)
+
+Concernant les hypothèses émises plus haut au sein de ce papier, la visualisation produite confirme une association positive entre le montant des investissements étrangers et le niveau de *soft power* attribué aux investisseurs, alors que les États et fonds souverains occupent les bulles les plus imposantes et les positions les plus élevées sur l’indice. Elle indique également un degré de conditionnalité du « succès » d’un tel investissement étranger selon le contexte géographique de l’investissement, un constat qui avait été établi par la revue de littérature d’Elicit. Ainsi les tendances constatées soutiennent l’idée selon laquelle les investissements sportifs étrangers fonctionnent comme actif financier mais aussi d’outil d’influence politique.
+
+Néanmoins, il en demeure que ces résultats doivent être interprétés avec circonspection en raison du caractère fictif de l’ensemble de données: la validité empirique de l’analyse y perd de la vigueur. Il en va de même en tenant compte de l’indice de *soft power*, construit à l’interne, qui réduit l’objectivité de la recherche. Le faible échantillonage (8 clubs/franchises) réduit quant à lui la généralisation potentielle des tendances observées, et finalement, l’utilisation seule de *Factiva* introduit un biais de sélection médiatique, puisque les dynamiques éditoriales dégagées des sources sont uniquement celles des articles et documents qu’elle indexe (contrairement à si j’avais scrapé le web plus extensivement). Malgré ces limites, les résultats qui sont produits par la recherche démontrent sa logique théorique, ce qui offre une base plausible pour des futurs travaux en la matière.
+
+------------------------------------------------------------------------
+
+## - Discussion
 
 (Réflexion sur les outils : R, ggplot2, accessibilité, open source, etc.)
-

@@ -1,0 +1,39 @@
+/* Police globale légèrement plus grande et plus lisible */
+body {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Titres plus marqués */
+h1, h2, h3 {
+  font-weight: 700;
+}
+
+/* Séparateurs plus élégants */
+hr {
+  border: 0;
+  height: 1px;
+  background: #dddddd;
+  margin: 2rem 0;
+}
+
+/* Bloc citations */
+blockquote {
+  border-left: 4px solid #1f77b4;
+  padding-left: 1rem;
+  color: #555;
+  font-style: italic;
+}
+
+/* Image centrée */
+img {
+  display: block;
+  margin: 1.5rem auto;
+  max-width: 100%;
+}
+
+/* Légère marge pour respirer */
+.main-container {
+  max-width: 1000px;
+  margin: auto;
+}
