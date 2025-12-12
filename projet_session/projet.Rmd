@@ -3,9 +3,59 @@ title: "projet"
 output: html_document
 ---
 ---
-title: "Projet de session – POL-6078"
+title: "Financiarisation et soft power: les investissements étrangers dans le sport professionnel"
 author: "Loïc Robinson"
-date: "Automne 2025"
+date: "POL-6078"
 output: html_document
 ---
+## Introduction
+
+Progressivement, le marché du sport professionnel connaît une transformation de ses structures de financement et de propriété, ainsi que de sa gouvernance. Que ce soit à des fins de sportswashing, de renforcement de stratégies géopolitiques plus larges ou de simples rendements monétaires, rares sont les grands clubs ou les grandes franchises qui ne sont pas aujourd’hui détenus par un fonds souverain, une firme de capital-investissement ou de grands gestionnaires d’actifs internationaux. L’investissement massif de ces acteurs est particulièrement visible à l’échelle de ligues majeures nord-américaines comme la National Basketball Association (NBA), la Major League Baseball (MLB) ou la Major League Soccer (MLS), ainsi que des clubs de soccer européens dominants.
+À ce titre, il importe d’analyser comment l’augmentation des investissements étrangers dans les clubs sportifs nord-américains ou européens contribue à redéfinir le sport professionnel, que ce soit à la fois comme classe d’actifs financiers ou comme instrument de soft power économique et politique.
+
+---
+
+## Revue de littérature
+
+Pour réaliser ma revue de littérature, j’ai mobilisé l’outil de synthèse de la connaissance du nom d’Elicit, qui propose, usant de l’intelligence artificielle, un survol de la littérature sur un sujet donné puis un onglet qui permet d’interagir avec les résultats. J'ai ensuite eu recours à Gemini 3 Pro pour traduire la revue de littérature générée par Elicit, ce qui a mené au résultat suivant:
+
+« La littérature examinant l'investissement sportif étranger en tant que mécanisme de projection de soft power est devenue un domaine de recherche significatif. Une analyse systématique révèle que, bien que des montants d'investissement plus élevés soient associés à des gains accrus de soft power, cette relation est fondamentalement conditionnelle plutôt que linéaire (Schepps 2023; Bianco & Sons 2023). Des preuves empiriques démontrent des variations marquées dans les résultats selon les contextes d'investissement. Par exemple, l'acquisition par le Qatar du Paris Saint-Germain pour 1,7 milliard de dollars a généré un levier diplomatique mondial documenté, amélioré les relations internationales, et produit des résultats politiques à long terme, notamment une influence sur l'OPEP et un rôle dans le courtage d'accords internationaux (Katyal 2021). En revanche, le parrainage du FC Schalke par Gazprom, malgré son statut de plus grand parrainage de l'histoire du football allemand (Schepps 2023), n'a produit que des effets régionaux et à court terme, finalement sapés par la politique étrangère antagoniste de la Russie (Schepps 2023).
+
+Les travaux recensés soulignent trois dimensions empiriques récurrentes permettant d’évaluer les effets de ces investissements sur le soft power (Kilcline 2019; Bianco & Sons 2023) : (1) la capacité globale de soft power de l’État investisseur — largement discutée dans la littérature sur la diplomatie sportive comme ressource préalable modulant l’efficacité d’un investissement (Ishac 2018; Chadwick & al. 2020) ; (2) le degré de médiatisation internationale générée par l’acquisition ou le financement d’un club, la visibilité médiatique étant fréquemment décrite comme un mécanisme central de diffusion d’image nationale (Chanavat 2017) ; (3) le statut, la richesse et l’influence institutionnelle de la franchise sportive acquise, plusieurs auteurs notant que les clubs ayant une forte empreinte culturelle ou commerciale offrent un levier symbolique disproportionné dans les stratégies de soft power (Chadwick & Arthur 2017).
+
+Les chercheurs avancent également la théorie selon laquelle le parrainage d'un plus grand nombre d'équipes ayant des marques plus fortes via des sociétés d'État produirait de meilleurs rendements en matière de soft power (Krzyzaniak 2016).
+
+Le cadre théorique englobe de multiples mécanismes causaux : l'association de marque (Krzyzaniak 2016), le contrôle des médias et de la diffusion (Kilcline 2019), l'intégration avec des objectifs stratégiques (Katyal 2021), et les activités de diplomatie sportive (Bianco & Sons 2023). Cependant, la prédominance des méthodologies d'étude de cas qualitatives limite l'inférence causale (Schepps 2023).
+
+Des limites méthodologiques persistent dans le domaine : la plupart des sources manquent de méthodes de mesure explicites pour les résultats de soft power, et aucune étude ne fournit d'analyse contrefactuelle robuste (Schepps 2023). Seulement une étude utilise des données de vote pour mesurer des résultats comportementaux, et une autre emploie des indicateurs financiers (Schepps 2023).
+
+Ainsi, même si le corpus souligne le rôle de la capacité étatique, de la visibilité médiatique et du prestige des clubs dans les stratégies de diplomatie sportive, la force causale de cette relation ne peut être établie de manière définitive à partir des preuves disponibles (Schepps 2023). Ceci souligne des lacunes critiques dans les approches de mesure quantitative et d'analyse longitudinale qui contraignent l'avancement théorique dans la compréhension des mécanismes de la diplomatie sportive (Connell 2017; Schepps 2023). »
+
+---
+
+## Question de recherche et hypothèse
+
+
+
+---
+
+## Collecte de données
+
+Les données utilisées dans ce projet sont **fictives** et ont été générées à des fins pédagogiques afin d’illustrer une démarche de recherche appliquant des outils numériques.
+
+---
+
+## Analyse et visualisation des données
+
+---
+
+## Analyse des résultats
+
+(Interprétation des graphiques)
+
+---
+
+## Discussion
+
+(Réflexion sur les outils : R, ggplot2, accessibilité, open source, etc.)
 
