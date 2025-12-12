@@ -61,12 +61,6 @@ Cette approche inhabituelle à la collecte de données aurait pu être renforcé
 
 ---
 
-## Analyse des résultats
-
-(Interprétation des graphiques)
-
----
-
 ## Discussion
 
 (Réflexion sur les outils : R, ggplot2, accessibilité, open source, etc.)
