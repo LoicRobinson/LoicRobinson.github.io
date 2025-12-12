@@ -2960,19 +2960,19 @@ l’établissement d’un lien entre investissements étrangers dans le sport
 professionnel et l’acquisition de <em>soft power</em> pour les
 investisseurs. Cette lacune de données quantitatives est notamment
 relevée dans ma revue de littérature. À cet effet, j’ai eu recours à
-l’intelligence artificelle de ChatGPT pour construire un ensemble de
-données réaliste s’attardant à 8 franchises ou clubs sportifs:
-Manchester City FC, Newcastle United, Inter Miami, les Dodgers de Los
-Angeles, les Raptors de Toronto, l’AC Milan, le Paris Saint Germain et
-le Arsenal FC. Cela m’a permis de reproduire de manière réaliste la
-logique d’une telle recherche et, éventuellement, d’explorer la relation
-théorique énoncée dans ma question de recherche. Les variables retenues
-reflètent ces dimensions: d’une part, le <strong>montant de
-l’investissement</strong>, en millions de dollars américains, puis,
-d’autre part, <strong>l’origine géopolitique</strong> etle <strong>type
-d’investisseur</strong> qu’il constitue. Ces dernières variables
-permettent de faire la distinction entre fonds souverains, capitaux
-privés ou gestionnaires d’actifs.</p>
+l’intelligence artificelle de <em>ChatGPT</em> pour construire un
+ensemble de données réaliste s’attardant à 8 franchises ou clubs
+sportifs: Manchester City FC, Newcastle United, Inter Miami, les Dodgers
+de Los Angeles, les Raptors de Toronto, l’AC Milan, le Paris Saint
+Germain et le Arsenal FC. Cela m’a permis de reproduire de manière
+réaliste la logique d’une telle recherche et, éventuellement, d’explorer
+la relation théorique énoncée dans ma question de recherche. Les
+variables retenues reflètent ces dimensions: d’une part, le
+<strong>montant de l’investissement</strong>, en millions de dollars
+américains, puis, d’autre part, <strong>l’origine géopolitique</strong>
+etle <strong>type d’investisseur</strong> qu’il constitue. Ces dernières
+variables permettent de faire la distinction entre fonds souverains,
+capitaux privés ou gestionnaires d’actifs.</p>
 <p>J’ai ensuite construit un indice fictif de « <em>soft power</em> »
 pour opérationnaliser la variable politique de la chose. Utilisant un
 score de 1 à 10, cet indice combine les trois dimensions empiriques
@@ -3081,8 +3081,52 @@ travaux en la matière.</p>
 </div>
 <div id="discussion" class="section level2" number="6">
 <h2><span class="header-section-number">6</span> - Discussion</h2>
-<p>(Réflexion sur les outils : R, ggplot2, accessibilité, open source,
-etc.)</p>
+<p>Une multitude d’outils numériques sont intervenus tout au long de la
+réalisation de cette recherche. La sélection de ces outils représente le
+fruit d’un arbitrage relativement constant qui visait à maximiser la
+prévalence des valeurs scientifiques de transparence, d’accessibilité et
+de réplicabilité (principes tirés du cours), puis, dans un second plan,
+à répondre à mes besoins pratiques, c’est-à-dire de trouver rapidement
+l’information, construire et analyser une base de données qui,
+fonctionnellement, n’existait pas, visualiser les résultats et,
+finalement, publier un travail reproductible. L’utilisation initiale
+d’<strong>Elicit</strong> pour générer la revue de littérature s’inscrit
+dans ce prisme. Bien que sa revue narrative demeure limitée dans la
+version gratuite de l’outil, réduisant son accessibilité dans le sens
+entendu du cours, son accessibilité méthodologique, à savoir, le survol
+rapide et structuré qu’il effectue à travers une interface facile à
+opérer, tout en identifiant ses sources, rendait l’utilisation de cet
+outil idéale. Ensuite, l’emploi de l’intelligence artificielle
+générative a répondu à une gamme de besoins beaucoup plus large.
+<strong>ChatGPT</strong> a notamment permis la construction d’un
+ensemble de données fictives essentielles à l’opérationnalisation du
+projet, tout en servant d’expert virtuel pour traiter les erreurs de
+code qui pouvaient survenir dans <strong>RStudio</strong>. Ces outils
+manquent cependant de transparence et la vigilance demeure de mise lors
+de leur utilisation. J’ai choisi de réaliser la construction de mon
+ensemble de données et l’analyse de ces statistiques dans <strong>R et
+RStudio</strong> puisqu’il s’agit de deux outils largement utilisés dans
+le milieu académique et qui représentent parfaitement la philosophie du
+logiciel libre. Une réplicabilité complète (dans le sens que tout script
+exécuté peut être reproduit par n’importe quel utilisateur disposant des
+mêmes packages) caractérise ces outils, ce qui va de pair avec les
+valeurs fondamentales de ce projet. De plus, la
+<strong>tidyverse</strong>, <strong>ggplot2</strong> et le package
+<strong>psych</strong> illustrent aussi la logique populaire, accessible
+et réplicable du papier, étant tous soutenus par une communauté active.
+Ainsi, l’environnement <strong>R</strong>, tout au long du projet,a été
+l’incarnation la plus authentique de la philosophie du logiciel libre en
+action dans les méthodes scientifiques en sciences sociales. Cette
+section mérite également que l’on s’attarde à mon utilisation de
+<strong>Factiva</strong>, outil auquel j’ai pu accéder via la licence
+institutionnelle de l’Université Laval. Efficae en matière de profondeur
+documentaire, Factiva demeure toutefois un outil propriétaire et payant,
+limitant son accessibilité et sa réplicabilité. Finalement, la rédaction
+en <strong>Markdown (.Rmd)</strong> et la publication du projet via
+<strong>GitHub</strong> étaient une étape culminante cohérente avec mes
+valeurs de transparence et d’ouverture. La structure du dossier de mon
+projet au sein d’un repo de la plateforme respecte notamment la pratique
+de réplicabilité des données et de la recherche.</p>
 </div>
 
 
