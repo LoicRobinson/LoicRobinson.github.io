@@ -78,3 +78,33 @@ Néanmoins, il en demeure que ces résultats doivent être interprétés avec ci
 ## - Discussion
 
 Une multitude d’outils numériques sont intervenus tout au long de la réalisation de cette recherche. La sélection de ces outils représente le fruit d’un arbitrage relativement constant qui visait à maximiser la prévalence des valeurs scientifiques de transparence, d’accessibilité et de réplicabilité (principes tirés du cours), puis, dans un second plan, à répondre à mes besoins pratiques, c’est-à-dire de trouver rapidement l’information, construire et analyser une base de données qui, fonctionnellement, n'existait pas, visualiser les résultats et, finalement, publier un travail reproductible. L’utilisation initiale d’**Elicit** pour générer la revue de littérature s’inscrit dans ce prisme. Bien que sa revue narrative demeure limitée dans la version gratuite de l’outil, réduisant son accessibilité dans le sens entendu du cours, son accessibilité méthodologique, à savoir, le survol rapide et structuré qu’il effectue à travers une interface facile à opérer, tout en identifiant ses sources, rendait l’utilisation de cet outil idéale. Ensuite, l’emploi de l’intelligence artificielle générative a répondu à une gamme de besoins beaucoup plus large. **ChatGPT** a notamment permis la construction d’un ensemble de données fictives essentielles à l’opérationnalisation du projet, tout en servant d’expert virtuel pour traiter les erreurs de code qui pouvaient survenir dans **RStudio**. Ces outils manquent cependant de transparence et la vigilance demeure de mise lors de leur utilisation. J’ai choisi de réaliser la construction de mon ensemble de données et l’analyse de ces statistiques dans **R et RStudio** puisqu’il s’agit de deux outils largement utilisés dans le milieu académique et qui représentent parfaitement la philosophie du logiciel libre. Une réplicabilité complète (dans le sens que tout script exécuté peut être reproduit par n’importe quel utilisateur disposant des mêmes packages) caractérise ces outils, ce qui va de pair avec les valeurs fondamentales de ce projet. De plus, la **tidyverse**, **ggplot2** et le package **psych** illustrent aussi la logique populaire, accessible et réplicable du papier, étant tous soutenus par une communauté active. Ainsi, l’environnement **R**, tout au long du projet,a été l’incarnation la plus authentique de la philosophie du logiciel libre en action dans les méthodes scientifiques en sciences sociales. Cette section mérite également que l’on s’attarde à mon utilisation de **Factiva**, outil auquel j’ai pu accéder via la licence institutionnelle de l’Université Laval. Efficae en matière de profondeur documentaire, Factiva demeure toutefois un outil propriétaire et payant, limitant son accessibilité et sa réplicabilité. Finalement, la rédaction en **Markdown (.Rmd)** et la publication du projet via **GitHub** étaient une étape culminante cohérente avec mes valeurs de transparence et d’ouverture. La structure du dossier de mon projet au sein d’un repo de la plateforme respecte notamment la pratique de réplicabilité des données et de la recherche.
+
+------------------------------------------------------------------------
+
+## - Bibliographie
+
+Chadwick, Simon, et David Arthur. 2010. « International Cases in the Business of Sport. »
+
+Chadwick, Simon, Paul Widdop, et Nicholas Burton. 2020. « Soft Power Sports Sponsorship – A Social Network Analysis of a New Sponsorship Form. » *Journal of Political Marketing* 21 (2): 196–217.
+
+Chanavat, Nicolas. 2017. « French Football, Foreign Investors: Global Sports as Country Branding. » *The Journal of Business Strategy* 38 (6): 3–10. <https://doi.org/10.1108/JBS-04-2017-0053>.
+
+Connell, John. 2018. « Globalisation, soft power, and the rise of football in China. » *Geographical Research* 56 (1): 5–15.
+
+Ishac, Wadih. 2018. « Furthering national development through sport, the case of Qatar. »
+
+Katyal, Anay. 2021. « Top Bins: An Exploration of Qatar’s Use of Sport and Capital to Strengthen Diplomatic Visibility. » *Athens Journal of Sports* 8 (4): 271–278. <https://doi.org/10.30958/ajspo.8-4-4>.
+
+Kilcline, Cathal. 2019. « Plutocrats, Paranoia, Platoche. » Dans *Sport and Society in Global France: Nations, Migrations, Corporations, Studies in Modern and Contemporary France*. Liverpool: Liverpool University Press. <https://doi.org/10.3828/liverpool/9781781382899.001.0001>.
+
+Krzyzaniak, J. 2018. « The soft power strategy of soccer sponsorships. » *Soccer & Society* 19 (4): 498–515.
+
+Schepps, Caden. 2023. « Geopolitics on a Jersey: Gazprom's Sponsorship of FC Schalke 04 and its Soft Power Implications. » *Cornell International Affairs Review* 16 (2).
+
+Sons, Sebastian, et Cinzia Bianco. 2023. « More than a Game: Football and Soft Power in the Gulf. » *The International Spectator* 58 (2): 92–106.
+
+Brand Finance. 2025. « Brand Finance Global Soft Power Index 2025: China overtakes UK for the first time, US remains top-ranked nation brand. »
+
+Deloitte. 2025. « Deloitte Football Money League 2025. » <https://www.deloitte.com/uk/en/services/consulting-financial/analysis/deloitte-football-money-league.html>.
+
+Forbes. 2024. « The World’s 50 Most Valuable Sports Teams 2024. »
